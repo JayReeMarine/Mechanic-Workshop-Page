@@ -4066,6 +4066,41 @@ input, select, textarea {
 			color: #fff;
 		  }
 
+		  .service-section {
+			flex-direction: column;
+			align-items: flex-start;
+			margin-bottom: 4em;
+		  }
+		
+		  .service-section img {
+			width: 100%;
+			max-width: 100%;
+			height: auto;
+			margin-right: 0;
+			margin-bottom: 1.5em;
+			border-radius: 10px;
+		  }
+		
+		  .service-text {
+			width: 100%;
+		  }
+		
+		  .service-text h3 {
+			font-size: 1.6em;
+			text-align: left;
+		  }
+		
+		  .service-text p {
+			font-size: 1em;
+			line-height: 1.6;
+		  }
+		
+		  .service-text .button {
+			width: 100%;
+			text-align: center;
+			font-size: 1em;
+		  }
+
 		  
 		/* Basic */
 			body, input, textarea, select {
