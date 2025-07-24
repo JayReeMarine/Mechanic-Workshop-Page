@@ -79,4 +79,14 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggle = document.querySelector('.services-dropdown-toggle');
+    const list = document.querySelector('.services-nav ul');
+
+    toggle.addEventListener('click', function () {
+      list.classList.toggle('show');
+      toggle.classList.toggle('open');
+    });
+  });
   
